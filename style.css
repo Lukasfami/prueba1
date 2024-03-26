@@ -1,0 +1,183 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container {
+     width: 960px;
+     margin: 0 auto;
+ }
+
+ @media (max-width: 768px) {
+     .container {
+         width: 100%;
+         padding: 0 20px;
+     }
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+ }
+
+ main {
+     padding: 20px;
+ }
+
+ form {
+     max-width: 500px;
+     margin: 0 auto;
+     background: #f4f4f4;
+     padding: 20px;
+     border-radius: 5px;
+ }
+
+ form label {
+     display: block;
+     margin-bottom: 5px;
+ }
+
+ form input[type="text"],
+ form input[type="email"],
+ form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
+
+ form textarea {
+     resize: vertical;
+     height: 100px;
+ }
+
+ form button {
+     background: #333;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 4px;
+ }
+
+ form button:hover {
+     background: #555;
+ }
+
+ .anta-regular {
+     font-family: "Anta", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ footer {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 5px 0;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+
+ .opciones {
+     display: flex;
+     text-align: left;
+ }
+
+ .opciones label {
+     margin: 5px;
+ }
+
+
+ h1 {
+     text-align: center;
+ }
+
+ .imagenCamperas {
+     text-align: right;
+ }
+
+ nav {
+     background-color: #333;
+ }
+
+ nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+ }
+
+ nav ul li {
+     display: inline-block;
+     margin-right: 20px;
+ }
+
+ nav ul li:last-child {
+     margin-right: 0;
+ }
+
+ nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 20px;
+     display: block;
+ }
+
+ nav ul li a:hover {
+     background-color: #555;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .arrow {
+     text-align: right;
+ }
+
+ .navbar {
+     border-radius: 6px;
+     background-color: #ebc0c0;
+ }
+
+ .submenu {
+     text-align: center;
+ }
+
+ .submenu ul {
+     display: inline-flex;
+     list-style-type: none;
+ }
+
+ .submenu ul li a {
+     margin: 5px;
+     text-decoration: none;
+     background-color: #333;
+     border-radius: 2px;
+     color: #f4f4f4;
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ .imagenMujer a {
+     margin: 10px;
+ }
+
+ .imagenHombre{
+    margin: 30px 70px;
+ }
